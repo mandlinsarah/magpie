@@ -86,3 +86,4 @@ def apply_template(model_name):
 def generate_uuid(name):
     namespace = uuid.NAMESPACE_DNS
     return str(uuid.uuid5(namespace, name))
+
